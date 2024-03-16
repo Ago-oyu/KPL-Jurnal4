@@ -5,10 +5,13 @@
         static void Main(string[] args)
         {
             KodeBuah kb = new KodeBuah();
+            Console.WriteLine("Kode Buah : " + kb.GetKodeBuah(KodeBuah.NamaBuah.Semangka));
 
-             Console.WriteLine("Kode Buah : " + kb.GetKodeBuah(KodeBuah.NamaBuah.Semangka));
-
-
+            PosisiKarakterGame ps = new PosisiKarakterGame();
+            for (int i = 0; i < 5; i++)
+            {
+                ps.ChangePosisi();
+            }
         }
     }
 }
