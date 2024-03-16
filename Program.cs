@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            KodeBuah kb = new KodeBuah();
+
+             Console.WriteLine("Kode Buah : " + kb.GetKodeBuah(KodeBuah.NamaBuah.Semangka));
+
+
         }
     }
 }
